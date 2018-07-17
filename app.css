@@ -1,0 +1,30 @@
+h3{
+  font-size: 15px;
+}
+
+body{
+  width: 80%;
+  margin: 10% auto 0;
+}
+
+#terminal {
+  background: black;
+  color: white;
+  padding: 5px;
+  overflow: hidden;
+}
+
+#terminal span {
+  width: 10%;
+}
+
+#terminal .user_input {
+  width: 90%;
+  background: black;
+  color: white;
+  border: none;
+}
+
+#terminal .user_input:focus {
+  outline: none;
+}
